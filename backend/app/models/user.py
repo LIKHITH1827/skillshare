@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from sqlalchemy import String, Enum
-from app.db.base import Base
+from app.db.base_class import Base
 import enum
 
 # Define user roles
